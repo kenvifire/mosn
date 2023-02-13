@@ -9,7 +9,7 @@
 
 [中文](README_ZH.md)
 
-MOSN (Modular Open Smart Network) is a cloud-native network proxy written in Go language. It is open sourced by Ant Group and verified by hundreds of thousands of production containers in 11.11 global shopping festival. MOSN provides the capabilities of multiple protocol, modularity, intelligent and security. It integrates a large number of cloud-native components, and also integrates a Envoy network library, which is high-performance and easy to expand. MOSN and Istio can be integrated to build Service Mesh, and can also be used as independent L4/L7 load balancers, API gateways, cloud native Ingress, and etc.
+MOSN (Modular Open Smart Network) is a cloud-native network proxy written in Go language. It is open sourced by Ant Group and verified by hundreds and thousands of production containers in 11.11 global shopping festival. MOSN provides capabilities of multiple protocols, modularity, intelligent and security. It integrates a large number of cloud-native components as well as an Envoy network library, which is high-performance and easy to expand. MOSN and Istio can be integrated together to build Service Mesh, and can also be used as independent L4/L7 load balancers, API gateways, cloud native Ingress, and etc.
 
 ## Core capabilities
 
@@ -43,17 +43,17 @@ MOSN (Modular Open Smart Network) is a cloud-native network proxy written in Go 
    - Supports different cluster types: original dst/dns/simple
    - Supports cluster type extension
 - Observability
-   - Support trace module extension
+   - Supports trace module extension
    - Integrates jaeger/skywalking
-   - Support metrics with prometheus style
-   - Support configurable access log
-   - Support admin API extension
+   - Supporst metrics with prometheus style
+   - Supports configurable access log
+   - Supporst administration API extension
    - Integrates [Holmes](https://github.com/mosn/holmes) to automatic trigger pprof
 - TLS
-   - Support multiple certificates matches, and TLS inspector mode.
-   - Support SDS for certificate get and update
-   - Support extensible certificate get, update and verify
-   - Support CGo-based cipher suites: SM3/SM4
+   - Supports multiple certificates matches, and TLS inspector mode.
+   - Supports SDS for certificate get and update
+   - Supports extensible certificate get, update and verify
+   - Supports CGo-based cipher suites: SM3/SM4
 - Process management
    - Supports hot upgrades
    - Supports graceful shutdown
@@ -79,7 +79,7 @@ See our [contributor guide](CONTRIBUTING.md).
 
 ## Partners
 
-Partners participate in MOSN co-development to make MOSN better.
+Partners who participate in MOSN co-development to make MOSN better.
 
 <div>
 <table>
@@ -227,7 +227,7 @@ The MOSN community actively embraces the open source ecosystem and has establish
 
 ## Community
 
-See our community materials on <https://github.com/mosn/community>.
+See our community details on <https://github.com/mosn/community>.
 
 Visit the [MOSN website](https://mosn.io/docs/community/) for more information on working groups, roadmap, community meetings, MOSN tutorials, and more.
 
